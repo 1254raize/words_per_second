@@ -85,6 +85,7 @@ class Window(QMainWindow):
 
     def stop_timer(self):
         self.timer_run = False
+        self.ui.typed_text.setText("")
 
 
 if __name__ == "__main__":
